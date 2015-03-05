@@ -13,6 +13,7 @@
 		B479A8EB1AA30E8B0078BC35 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B479A8EA1AA30E8B0078BC35 /* Images.xcassets */; };
 		B479A8EE1AA30E8B0078BC35 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B479A8EC1AA30E8B0078BC35 /* LaunchScreen.xib */; };
 		B479A8FA1AA30E8B0078BC35 /* fiboAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B479A8F91AA30E8B0078BC35 /* fiboAppTests.swift */; };
+		B479A9041AA30EC30078BC35 /* FibonacciSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B479A9031AA30EC30078BC35 /* FibonacciSequence.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		B479A8F31AA30E8B0078BC35 /* fiboAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fiboAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B479A8F81AA30E8B0078BC35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B479A8F91AA30E8B0078BC35 /* fiboAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fiboAppTests.swift; sourceTree = "<group>"; };
+		B479A9031AA30EC30078BC35 /* FibonacciSequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FibonacciSequence.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				B479A8E31AA30E8B0078BC35 /* AppDelegate.swift */,
 				B479A8E51AA30E8B0078BC35 /* ViewController.swift */,
 				B479A8E71AA30E8B0078BC35 /* Main.storyboard */,
+				B479A9031AA30EC30078BC35 /* FibonacciSequence.swift */,
 				B479A8EA1AA30E8B0078BC35 /* Images.xcassets */,
 				B479A8EC1AA30E8B0078BC35 /* LaunchScreen.xib */,
 				B479A8E11AA30E8B0078BC35 /* Supporting Files */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B479A9041AA30EC30078BC35 /* FibonacciSequence.swift in Sources */,
 				B479A8E61AA30E8B0078BC35 /* ViewController.swift in Sources */,
 				B479A8E41AA30E8B0078BC35 /* AppDelegate.swift in Sources */,
 			);
